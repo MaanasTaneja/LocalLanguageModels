@@ -4,7 +4,7 @@
 This repository provides a **local language modeling library** built using the `transformers` library and PyTorch. It allows you to run and fine-tune language models locally on your own datasets.  Allows you to experiment with different forms of decoding, and sampling from language models, and log primitive conversation chains (in the vein of the OpenAI API and others), will in the near future also be able to fine tune 
 language models using the library (FineTune.py), and will be seamless, to allow for finetuning with simple csv files with input, output pairs for instruction fine tuning, or large corpus of text for pre-training style transfer fine tuning. All complexities in converting and handling data will be solved and hidden. 
 
-Currently, `fine_tuning.ipynb` notebook serves as a test script for fine-tuning models, has a demo of all these features. In the future, a `fine_tune.py` module will be integrated into the library to streamline the fine-tuning process.
+Currently, `fine_tuning.ipynb` notebook serves as a test script for fine-tuning models, has a demo of all these features (currently trains Bert to classify object and trains GP2 to output Shakespere Text). In the future, a `fine_tune.py` module will be integrated into the library to streamline the fine-tuning process.
 
 ## Features
 
